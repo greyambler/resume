@@ -10,6 +10,25 @@ body {
     background : #f1f1f1;
 }
 
+a {
+    color          : #111;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color          : aqua;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+}
+
+
 .container {
     max-width  : 750px;
     margin     : auto;
@@ -17,9 +36,13 @@ body {
 }
 
 .avatar {
-    width: 150px;
+    width        : 150px;
     border-radius: 10px;
     box-shadow   : 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.info {
     margin-bottom: 20px;
 }
 
@@ -54,4 +77,53 @@ body {
 
 .bg-green {
     background: #e5ffe7
+}
+
+.btn {
+    background : #111;
+    padding    : 15px 20px;
+    color      : #fff;
+    border     : none;
+    font-family: inherit;
+    cursor     : pointer;
+}
+
+.btn:hover {
+    opacity      : .8;
+    border-radius: 5px;
+}
+
+.list {
+    margin : 0;
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted gray;
+}
+.list-teach{
+    list-style: none;
+    padding: 0;
+}
+.list-teach li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th,
+td {
+    text-align: left;
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3)
+{
+    color: #86898f;
 }
