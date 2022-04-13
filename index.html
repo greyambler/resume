@@ -15,9 +15,10 @@
   <div class="container">
     <div class="info">
       <img src="img/c-825.jpg" alt="фото" class="avatar" />
-      <h1>Шавлов Михаил</h1>
+
 
       <div class="info-text">
+        <h1>Шавлов Михаил</h1>
         <p>
           Мой стаж работы в сфере информациоонных технологий превышает
           <strong>двацати лет</strong>. От инженера по локальным вычислительным
@@ -78,28 +79,31 @@
       <ul class="list-teach">
         <li>Московский Радиоприборостроительный техникум</li>
         <li>Московский авиационный институт</li>
-        <li>CSBI (Progress software)</li>
+        <!-- <li>CSBI (Progress software)</li> -->
         <li>Центр компьютерного обучения при МГТУ им. Н.Э.Баумана</li>
       </ul>
     </div>
 
 
-    <h2>Связаться со мной</h2>
 
-    <form action="/">
-      <div>
-        <label for="name">Ваше имя: </label>
-        <input type="text" id="name" placeholder="Введите своё имя"></input>
+
+    <form action="/" class="form">
+      <h2>Связаться со мной</h2>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Ваше имя: </label>
+          <input type="text" id="name" placeholder="Введите своё имя"></input>
+        </div>
+
+        <div class="form-group">
+          <label for="mail">Ваше email:</label>
+          <input type="mail" id="mail" placeholder="Введите свой email"></input>
+        </div>
       </div>
 
-      <div>
-        <label for="mail">Ваше email:</label>
-        <input type="mail" id="mail" placeholder="Введите свой email"></input>
-      </div>
-
-      <div>
+      <div class="form-group">
         <label for="message">Ваше сообщение:</label>
-        <br>
         <textarea id="message" placeholder="Введите сообщение..." rows="5" cols="25"></textarea>
       </div>
 
