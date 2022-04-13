@@ -99,17 +99,19 @@ a:visited {
 }
 
 .list li {
-    color: #86898f;
+    color        : #86898f;
     margin-bottom: 10px;
     border-bottom: 1px dotted gray;
 }
-.list-teach{
+
+.list-teach {
     list-style: none;
-    padding: 0;
+    padding   : 0;
 }
-.list-teach li{
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+
+.list-teach li {
+    margin-bottom : 10px;
+    border-bottom : 1px solid #ccc;
     padding-bottom: 5px;
 }
 
@@ -119,11 +121,11 @@ a:visited {
 
 .table th,
 td {
-    text-align: left;
+    text-align    : left;
     padding-bottom: 10px;
 }
+
 .table td:nth-child(2),
-.table td:nth-child(3)
-{
+.table td:nth-child(3) {
     color: #86898f;
 }
