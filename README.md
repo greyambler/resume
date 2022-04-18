@@ -1,12 +1,8 @@
 # Проект резюме 
 
-
 ## Создан в процессе прохождения тренинга
-## HTML & CSS
-## Владлен Минин
+
+###  HTML & CSS от 0 до первого сайта (Владлен Минин)
 
 
-https://greyambler.github.io/resume/
-
-
-[Работа на HTML & CSS](https://duckduckgo.com "The best search engine for privacy").
+[Работа на HTML & CSS](https://greyambler.github.io/resume/).
